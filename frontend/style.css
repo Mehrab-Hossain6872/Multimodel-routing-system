@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+#route-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+} 
